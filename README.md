@@ -10,7 +10,7 @@ Target IP  : 10.10.11.106
 
 Machine IP : 10.10.14.37
 
-![image](https://user-images.githubusercontent.com/67650329/149865341-4be7b64b-f731-4ac6-8dfb-02e44511b59c.png)
+<img src="https://user-images.githubusercontent.com/67650329/149865341-4be7b64b-f731-4ac6-8dfb-02e44511b59c.png" width="385px" align="center">
 
 NMAP Command I use :
 
@@ -27,7 +27,7 @@ NMAP scan found port and services :
 •	Port 445 : Direct TCP/IP MS Networking access
 
 I search the IP and I got the login username and password
-![image](https://user-images.githubusercontent.com/67650329/149864780-b9853f5c-c57a-406b-a8fc-1d7c3d464a6d.png)
+<img src="https://user-images.githubusercontent.com/67650329/149864780-b9853f5c-c57a-406b-a8fc-1d7c3d464a6d.png" width="385px" align="center">
 
 In this target I try first use common password for admin:
 Admin : admin
@@ -44,11 +44,11 @@ Admin : qwert123
 
 And I got the password for admin its admin.
 
-![image](https://user-images.githubusercontent.com/67650329/149864830-ab5fd0f8-63d6-4a59-bcdd-fb0d8e246332.png)
+<img src="https://user-images.githubusercontent.com/67650329/149864830-ab5fd0f8-63d6-4a59-bcdd-fb0d8e246332.png" width="385px" align="center">
 
 And this it’s the website target 10.10.11.106.
 
-![image](https://user-images.githubusercontent.com/67650329/149864892-282eb0e6-057b-4e09-8860-f730c15a2cdc.png)
+<img src="https://user-images.githubusercontent.com/67650329/149864892-282eb0e6-057b-4e09-8860-f730c15a2cdc.png" width="385px" align="center">
 
 I got the upload website, maybe I can input script in here.
 
@@ -56,20 +56,20 @@ I got the upload website, maybe I can input script in here.
 # Authenticate With the Cracked Password
 Make the script first
 
-![image](https://user-images.githubusercontent.com/67650329/149864931-31657837-315a-4a32-830d-b1ce84e09c58.png)
+<img src="https://user-images.githubusercontent.com/67650329/149864931-31657837-315a-4a32-830d-b1ce84e09c58.png" width="385px" align="center">
 
-![image](https://user-images.githubusercontent.com/67650329/149864972-b526872e-b063-4c4d-83c5-9ad3ec0d2649.png)
+<img src="https://user-images.githubusercontent.com/67650329/149864972-b526872e-b063-4c4d-83c5-9ad3ec0d2649.png" width="385px" align="center">
 
 This it’s the script and save it @PoC.scf
 And run the listener I use responder to listen the script.
-![image](https://user-images.githubusercontent.com/67650329/149865020-1a9ef447-081c-421c-a460-684b903cdac8.png)
+<img src="https://user-images.githubusercontent.com/67650329/149865020-1a9ef447-081c-421c-a460-684b903cdac8.png" width="385px" align="center">
 
 And I got the hash user tony.
 
-![image](https://user-images.githubusercontent.com/67650329/149865030-22a99d8a-3116-43bc-9516-3d6aada5fc3b.png)
+<img src="https://user-images.githubusercontent.com/67650329/149865030-22a99d8a-3116-43bc-9516-3d6aada5fc3b.png" width="385px" align="center">
 
 After I got the hash user tony, I must crack the hash use hashcat.
-![image](https://user-images.githubusercontent.com/67650329/149865044-42a98db9-bf65-430f-90e1-8fa28193e004.png)
+<img src="https://user-images.githubusercontent.com/67650329/149865044-42a98db9-bf65-430f-90e1-8fa28193e004.png" width="385px" align="center">
 
 I got liltony maybe this it’s the password user tony.
 Lets go access to target 10.10.11.106
