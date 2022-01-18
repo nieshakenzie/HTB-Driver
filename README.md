@@ -6,7 +6,9 @@ This is my first pentest, here I will pentest HTB Driver. Why I use HTB (Hack th
 # Service and Web Enumeration
 I used NMAP to scan the target.
 Target IP  : 10.10.11.106
+
 Machine IP : 10.10.14.37
+
 ![image](https://user-images.githubusercontent.com/67650329/149865341-4be7b64b-f731-4ac6-8dfb-02e44511b59c.png)
 
 NMAP Command I use :
@@ -22,11 +24,17 @@ I search the IP and I got the login username and password
 
 In this target I try first use common password for admin:
 Admin : admin
+
 Admin : admin123
+
 Admin : password
+
 Admin : password123
+
 Admin : qwert
+
 Admin : qwert123
+
 And I got the password for admin its admin.
 
 ![image](https://user-images.githubusercontent.com/67650329/149864830-ab5fd0f8-63d6-4a59-bcdd-fb0d8e246332.png)
