@@ -49,6 +49,7 @@ And run the listener I use responder to listen the script.
 ![image](https://user-images.githubusercontent.com/67650329/149865020-1a9ef447-081c-421c-a460-684b903cdac8.png)
 
 And I got the hash user tony.
+
 ![image](https://user-images.githubusercontent.com/67650329/149865030-22a99d8a-3116-43bc-9516-3d6aada5fc3b.png)
 
 After I got the hash user tony, I must crack the hash use hashcat.
