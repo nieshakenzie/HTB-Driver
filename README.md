@@ -31,6 +31,7 @@ I search the IP and I got the login username and password
 <img src="https://user-images.githubusercontent.com/67650329/149864780-b9853f5c-c57a-406b-a8fc-1d7c3d464a6d.png" width="385px" align="center">
 
 In this target I try first use common password for admin:
+
 Admin : admin
 
 Admin : admin123
