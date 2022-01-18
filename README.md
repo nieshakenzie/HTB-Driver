@@ -13,11 +13,17 @@ Machine IP : 10.10.14.37
 ![image](https://user-images.githubusercontent.com/67650329/149865341-4be7b64b-f731-4ac6-8dfb-02e44511b59c.png)
 
 NMAP Command I use :
+
 •	- sC : Performs a script scan using default scripts available in NMAP.
+
 •	- sV : Performs version detection for the services.
+
 NMAP scan found port and services :
+
 •	Port 80 : Apache
+
 •	Port 135 : Transmission Control Protocol
+
 •	Port 445 : Direct TCP/IP MS Networking access
 
 I search the IP and I got the login username and password
@@ -78,6 +84,7 @@ I got the user.txt on C:\Users\tony\Desktop.
 
 # Privilege Escalation
 After I got user.txt now I search the flag.
+
 I use reverseshell to execute the flag.
 ![image](https://user-images.githubusercontent.com/67650329/149865113-b10c8655-8f5c-4011-9dca-7e37b0370e24.png)
 
@@ -102,4 +109,5 @@ I am inside the target machine.
 ![image](https://user-images.githubusercontent.com/67650329/149865222-6f6a03a1-1e45-4397-ada3-6550f4bab527.png)
 
 And I got the root or flag.txt
+
 On C:\Users\Administrator\Desktop\root.txt.
