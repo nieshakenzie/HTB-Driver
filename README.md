@@ -63,6 +63,7 @@ Make the script first
 <img src="https://user-images.githubusercontent.com/67650329/149864972-b526872e-b063-4c4d-83c5-9ad3ec0d2649.png" width="385px" align="center">
 
 This it’s the script and save it @PoC.scf
+
 And run the listener I use responder to listen the script.
 
 <img src="https://user-images.githubusercontent.com/67650329/149865020-1a9ef447-081c-421c-a460-684b903cdac8.png" width="385px" align="center">
@@ -71,12 +72,16 @@ And I got the hash user tony.
 
 <img src="https://user-images.githubusercontent.com/67650329/149865030-22a99d8a-3116-43bc-9516-3d6aada5fc3b.png" width="385px" align="center">
 
-After I got the hash user tony, I must crack the hash use hashcat.
+After I got the hash user tony, 
+
+I must crack the hash use hashcat.
 
 <img src="https://user-images.githubusercontent.com/67650329/149865044-42a98db9-bf65-430f-90e1-8fa28193e004.png" width="385px" align="center">
 
 I got liltony maybe this it’s the password user tony.
+
 Lets go access to target 10.10.11.106
+
 I use evil-wirnm to access the target.
 
 <img src="https://user-images.githubusercontent.com/67650329/149865063-7743a326-cd55-4e03-ab06-7d9beb35f84a.png" width="385px" align="center">
@@ -96,6 +101,7 @@ I use reverseshell to execute the flag.
 <img src="https://user-images.githubusercontent.com/67650329/149865113-b10c8655-8f5c-4011-9dca-7e37b0370e24.png" width="385px" align="center">
 
 Download the exploit first from github:
+
 https://raw.githubusercontent.com/cube0x0/CVE-2021-1675/main/CVE-2021-1675.py.
 
 <img src="https://user-images.githubusercontent.com/67650329/149865132-5e6c0cb3-9845-492f-a917-5e0845302a00.png" width="385px" align="center">
