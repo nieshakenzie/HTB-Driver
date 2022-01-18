@@ -7,8 +7,7 @@ This is my first pentest, here I will pentest HTB Driver. Why I use HTB (Hack th
 I used NMAP to scan the target.
 Target IP  : 10.10.11.106
 Machine IP : 10.10.14.37
-![image](https://user-images.githubusercontent.com/67650329/149864550-9e1a7894-eb73-414b-98ad-a899c01c01f4.png)
-
+![image](https://user-images.githubusercontent.com/67650329/149865265-6fbcb7fb-73f1-4272-aeaa-efa4e2902202.png)
 NMAP Command I use :
 •	- sC : Performs a script scan using default scripts available in NMAP.
 •	- sV : Performs version detection for the services.
